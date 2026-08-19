@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  
+  body {
+    background: #040C11;
+    color: #A6B2AE;
+  }
