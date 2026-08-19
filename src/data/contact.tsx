@@ -11,7 +11,6 @@ export const renderContact = (): JSX.Element => {
       <p>GitHub: <ExternalLink href={profile.links.github} /></p>
       <p>Leetcode: <ExternalLink href={profile.links.leetcode} /></p>
       <p>Codeforces: <ExternalLink href={profile.links.codeforces} /></p>
-      <p>Instagram: <ExternalLink href={profile.links.instagram} /></p>
       <br />
     </div>
   );

@@ -1,18 +1,11 @@
 import { ExternalLink } from "../components/ui/ExternalLink";
+import { profile } from "./profile";
 
 export interface FrontendProject {
   title: string;
   description: string;
   technologies: string[];
-  githubRepo: string;
   liveLink: string;
-}
-
-export interface BackendProject {
-  title: string;
-  description: string;
-  technologies: string[];
-  githubRepo: string;
 }
 
 export interface FullStackProject {
@@ -20,7 +13,6 @@ export interface FullStackProject {
   description: string;
   achievements: string[];
   technologies: string[];
-  githubRepo: string;
   liveLink: string;
 }
 
@@ -32,7 +24,6 @@ export interface OtherProject {
 
 export interface ProjectData {
   frontendProjects: FrontendProject[];
-  backendProjects: BackendProject[];
   fullStackProjects: FullStackProject[];
   otherProjects: OtherProject[];
 }
@@ -44,7 +35,6 @@ export const projects: ProjectData = {
       description:
         "Developed a blockchain-based web wallet (Web3) to create different Solana and Ethereum wallets using a mnemonic phrase. The project utilizes React.js, CSS, the BIP39 library, JavaScript, Solana, and Ethereum to create wallets",
       technologies: ["React.js", "Tailwind CSS", "JavaScript", "Solana", "Web3", "BIP39 library"],
-      githubRepo: "https://github.com/rahul1841/VaultX",
       liveLink: "https://vault-x-brown.vercel.app/",
     },
     {
@@ -52,24 +42,7 @@ export const projects: ProjectData = {
       description:
         "Developed Quizify a dynamic quiz generator website where users can select a topic, number of questions, and difficulty level to generate a quiz, and view their score at the end. The project utilizes the Google Gemini API to create quizzes based on the difficulty selected by the user.",
       technologies: ["React.js", "Tailwind CSS", "Google Gemini API"],
-      githubRepo: "https://github.com/rahul1841/QuizGenerator",
       liveLink: "https://quiz-generator-lilac.vercel.app/",
-    },
-  ],
-  backendProjects: [
-    {
-      title: "PdfAi",
-      description:
-        "Developed a Generative AI chatbot using OpenAI and LangChain for PDF interaction and analysis. Built and deployed a Streamlit-based web app enabling real-time engagement with generative AI. Designed a scalable architecture integrating LangChain and OpenAI for document collaboration.",
-      technologies: ["Python", "Streamlit", "LangChain", "OpenAI"],
-      githubRepo: "https://github.com/rahul1841/pdfai",
-    },
-    {
-      title: "Basic-Port-Scanner",
-      description:
-        "Developed a custom port scanner using Python, leveraging the Shodan InternetDB API to retrieve detailed information on IPs, including open ports, vulnerabilities, and platform data. Implemented robust error handling and user input validation, ensuring accurate IP resolution and graceful handling of unresponsive hosts or incomplete data.",
-      technologies: ["Python", "Shodan InternetDB API"],
-      githubRepo: "https://github.com/rahul1841/Basic-Port-Scanner",
     },
   ],
   fullStackProjects: [
@@ -82,7 +55,6 @@ export const projects: ProjectData = {
         "Allowed instructors to sell courses and track sales percentage on a MERN-stack platform.",
       ],
       technologies: ["Node.js", "Express.js", "React.js", "MongoDB"],
-      githubRepo: "https://github.com/rahul1841/EduGlow",
       liveLink: "https://edu-glow.vercel.app/",
     },
     {
@@ -95,7 +67,6 @@ export const projects: ProjectData = {
         "Set up CI/CD pipelines with Cloud Build triggers for automated testing & deployment on Cloud Run.",
       ],
       technologies: ["Next.js", "ShadCN", "MongoDB", "Redis", "CI/CD", "Cloud Run"],
-      githubRepo: "https://share.taskynow.in/",
       liveLink: "https://share.taskynow.in/",
     },
   ],
@@ -113,9 +84,9 @@ const renderTechnologies = (technologies: string[]) =>
   technologies.map((tech, index) => <li key={index}>- {tech}</li>);
 
 const renderSingleProject = (
-  singleProject: FrontendProject | FullStackProject | BackendProject
+  singleProject: FrontendProject | FullStackProject
 ) => {
-  const { title, description, technologies, githubRepo } = singleProject;
+  const { title, description, technologies, liveLink } = singleProject;
 
   return (
     <div key={title} className="mb-4">
@@ -126,14 +97,11 @@ const renderSingleProject = (
       <p>Technologies:</p>
       <ul>{renderTechnologies(technologies)}</ul>
       <br />
-      {"liveLink" in singleProject && singleProject.liveLink && (
+      {liveLink && (
         <p>
-          Live Link: <ExternalLink href={singleProject.liveLink} />
+          Live Link: <ExternalLink href={liveLink} />
         </p>
       )}
-      <p>
-        GitHub Repo: <ExternalLink href={githubRepo} />
-      </p>
       <div className="my-4">
         <div>---------------------------------------------------------------</div>
       </div>
@@ -150,13 +118,10 @@ export const renderProject = (project: ProjectData) => {
       <h2>⚪ FRONTEND PROJECTS: </h2>
       <br />
       {project.frontendProjects.map((p) => renderSingleProject(p))}
-      <h2>⚪ BACKEND PROJECTS: </h2>
-      <br />
-      {project.backendProjects.map((p) => renderSingleProject(p))}
       {project.otherProjects.map((other) => (
         <p key={other.title}>
           {other.description}{" "}
-          <ExternalLink href="https://github.com/rahul1841/" />
+          <ExternalLink href={profile.links.github} />
         </p>
       ))}
     </div>

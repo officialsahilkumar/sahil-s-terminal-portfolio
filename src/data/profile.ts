@@ -4,7 +4,6 @@
 export interface ProfileLinks {
   linkedIn: string;
   github: string;
-  instagram: string;
   leetcode: string;
   codeforces: string;
   resume: string;
@@ -31,9 +30,8 @@ export const profile: Profile = {
   summary:
     "Software engineer focused on AI systems and agent platforms, with strong full-stack and DevOps foundations. I build multi-tenant agent orchestration, RAG pipelines, and high-performance web applications.",
   links: {
-    linkedIn: "https://www.linkedin.com/in/rahul-kumar-716045207/",
+    linkedIn: "https://www.linkedin.com/in/sahil-kumar-7b85b7227/",
     github: "https://github.com/officialsahilkumar",
-    instagram: "https://www.instagram.com/officialrahulsamyal/",
     leetcode: "https://leetcode.com/u/Corporate_Majdoor__/",
     codeforces: "https://codeforces.com/profile/Kalu---",
     resume:

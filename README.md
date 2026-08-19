@@ -19,7 +19,7 @@ projects, experience, skills, and contact links.
 | `achievements` | Coding ratings, contest rankings, awards |
 | `contributions` | Recent open-source activity |
 | `contactme` | Contact information |
-| `resume`, `linkedin`, `github`, `leetcode`, `codeforces`, `instagram` | Open external links |
+| `resume`, `linkedin`, `github`, `leetcode`, `codeforces` | Open external links |
 | `clear` | Clear the terminal |
 | `init` | Reprint the welcome banner |
 

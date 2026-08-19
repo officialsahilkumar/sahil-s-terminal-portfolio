@@ -40,11 +40,11 @@ EDUCATION:
 - Kendriya Vidyalaya Hiranagar — schooling (10th: 86.4%, 12th: 86.2%).
 
 SKILLS:
-- AI / GenAI: Multi-Agent Systems, Agent Orchestration, MCP, RAG, Prompt Engineering, Vespa.
+- AI / GenAI: MCP, RAG, Prompt Engineering.
 - Languages: C/C++, JavaScript, Python.
 - Libraries/Frameworks: React.js, Node.js, Express.js, Tailwind CSS, TypeScript,
-  Prisma, Mongoose, Next.js, Redis, Fastify, Kafka.
-- Tools/Platforms: GitHub, Docker, Git, Postman, Netlify, Kubernetes, AWS.
+  Prisma, Mongoose, Next.js, Fastify.
+- Tools/Platforms: GitHub, Docker, Git, Postman, Netlify.
 - Databases: MySQL, MongoDB, PostgreSQL.
 
 PROJECTS:
@@ -56,8 +56,6 @@ PROJECTS:
 - VaultX (React.js, Tailwind, Solana, Web3, BIP39): blockchain web wallet creating
   Solana/Ethereum wallets from a mnemonic. Live: https://vault-x-brown.vercel.app/
 - Quizify (React.js, Tailwind, Google Gemini API): dynamic quiz generator.
-- PdfAi (Python, Streamlit, LangChain, OpenAI): GenAI chatbot for PDF analysis.
-- Basic-Port-Scanner (Python, Shodan InternetDB API): custom port scanner.
 
 ACHIEVEMENTS:
 - 1850+ rating on LeetCode, 1470+ on Codeforces.
@@ -69,7 +67,7 @@ CERTIFICATIONS: Cybersecurity Skilling Program (IIT Kanpur); Neuro Nest Hackatho
 `;
 
 const COMMANDS =
-  "whoami, work, myprojects, skills, achievements, edu, certs, contributions, contactme, resume, linkedin, github, leetcode, codeforces, instagram";
+  "whoami, work, myprojects, skills, achievements, edu, certs, contributions, contactme, resume, linkedin, github, leetcode, codeforces";
 
 const SYSTEM = `You are the portfolio assistant for Sahil Kumar's interactive terminal portfolio.
 Answer the visitor's question in 2-4 short, friendly sentences using ONLY the context below — never invent facts.

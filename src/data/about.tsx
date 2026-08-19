@@ -36,7 +36,6 @@ export const renderAbout = (data: typeof profile): JSX.Element => {
         <li>- GitHub: <ExternalLink href={data.links.github} /></li>
         <li>- Leetcode: <ExternalLink href={data.links.leetcode} /></li>
         <li>- Codeforces: <ExternalLink href={data.links.codeforces} /></li>
-        <li>- Instagram: <ExternalLink href={data.links.instagram} /></li>
       </ul>
       <br />
     </div>

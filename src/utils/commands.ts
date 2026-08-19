@@ -38,7 +38,6 @@ export const commands: Record<string, Command> = {
   github: { description: "Open GitHub profile", category: "links", execute: () => openNewWindow(profile.links.github) },
   leetcode: { description: "Open LeetCode profile", category: "links", execute: () => openNewWindow(profile.links.leetcode) },
   codeforces: { description: "Open Codeforces profile", category: "links", execute: () => openNewWindow(profile.links.codeforces) },
-  instagram: { description: "Open Instagram profile", category: "links", execute: () => openNewWindow(profile.links.instagram) },
   clear: { description: "Clear the terminal", category: "system", execute: () => React.createElement(React.Fragment) },
   init: { description: "Initialize the terminal", category: "system", execute: () => React.createElement(Banner) },
 };

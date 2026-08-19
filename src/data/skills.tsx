@@ -7,7 +7,7 @@ export interface SkillData {
 export const skillData: SkillData[] = [
   {
     title: "AI / GenAI",
-    skills: ["Multi-Agent Systems", "Agent Orchestration", "MCP", "RAG", "Prompt Engineering", "Vespa"],
+    skills: ["MCP", "RAG", "Prompt Engineering"],
   },
   {
     title: "Programming Languages",
@@ -15,11 +15,11 @@ export const skillData: SkillData[] = [
   },
   {
     title: "Libraries/Frameworks",
-    skills: ["React.js", "Node.js", "Express.js", "Tailwind CSS", "TypeScript", "Prisma", "Mongoose", "Next.js", "Redis", "Fastify", "Kafka"],
+    skills: ["React.js", "Node.js", "Express.js", "Tailwind CSS", "TypeScript", "Prisma", "Mongoose", "Next.js", "Fastify"],
   },
   {
     title: "Tools / Platforms",
-    skills: ["GitHub", "Docker", "Git", "Postman", "Netlify", "Kubernetes", "AWS"],
+    skills: ["GitHub", "Docker", "Git", "Postman", "Netlify"],
   },
   {
     title: "Databases",
