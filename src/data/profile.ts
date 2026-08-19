@@ -35,6 +35,6 @@ export const profile: Profile = {
     leetcode: "https://leetcode.com/u/Corporate_Majdoor__/",
     codeforces: "https://codeforces.com/profile/Kalu---",
     resume:
-      "https://drive.google.com/file/d/11u9ldjSP0WIFXEqw2qgle76tHJr3UvtP/view?usp=sharing",
+      "https://drive.google.com/file/d/1P6ExSUty0NIMePPBBA3howunk79VII0o/view?usp=sharing",
   },
 };

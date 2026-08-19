@@ -20,24 +20,23 @@ PERSON: Sahil Kumar — Software Engineer. Based in Kolkata, India.
 Contact: sahil2002kumar02@gmail.com, +91-9682125161.
 
 EXPERIENCE:
-- Juspay — Associate Software Development Engineer (Bengaluru, May 2025 - Present):
-  Architected & built Xyne Claw, a multi-tenant AI agent platform for Xyne Spaces
-  (async agent orchestration, scheduled workflows, production agent execution
-  integrated with chat & workspaces). Built the execution runtime on the Pi
-  coding-agent SDK with multi-LLM routing, sandboxed execution, subagents, and a
-  secure MCP layer (credential vault + proxied tools) supporting 100+ MCP
-  connectors. Engineered an end-to-end attachment processing pipeline (uploads,
-  chunking, Vespa indexing, retrieval at scale). Built a virtualized multi-format
-  document viewer (10+ formats) with better preview than Slack.
-- Bombay Shaving Company — SDE Intern (Gurgaon, Jul 2024 - Sep 2024):
-  Built an automated pipeline to scrape, clean, and process customer reviews at
-  scale. Used the MERN stack with BeautifulSoup for extraction and the Gemini API
-  for sentiment analysis, producing structured insights with exportable reports.
+- Accenture — Associate Software Engineer (Kolkata, March 2024 - Present):
+  Developed a real-time wildlife monitoring platform for Utah DWR using React,
+  TypeScript, Node.js, and Google Cloud Pub/Sub to track GPS-collared animals and
+  analyze movement data. Built interactive geospatial visualizations with the
+  Google Maps SDK, processing satellite-transmitted GPS coordinates to display
+  animal movements with species-based filtering. Implemented geofencing and
+  species-specific boundary alerts to flag animals moving outside designated areas.
+  Processed large-scale wildlife datasets covering 11,798+ animals and 20+ years of
+  data to support analysis of migration patterns, population trends, disease,
+  mortality, and habitat connectivity. Supported BMW Canada integrations using IBM
+  IIB, troubleshooting transaction failures and implementing integration-flow
+  changes. Performed AWS server patching and vulnerability remediation, validating
+  fixes through Wiz vulnerability scans.
 
 EDUCATION:
-- GL Bajaj Institute of Technology and Management, Greater Noida — B.Tech,
-  Information Technology (2021 - 2025), CGPA 8.0.
-- Kendriya Vidyalaya Hiranagar — schooling (10th: 86.4%, 12th: 86.2%).
+- RCC Institute of Information Technology, Kolkata — B.Tech, Computer Science and
+  Engineering (2019 - 2023), CGPA 8.79.
 
 SKILLS:
 - AI / GenAI: MCP, RAG, Prompt Engineering.
@@ -50,9 +49,9 @@ SKILLS:
 PROJECTS:
 - EduGlow (MERN): ed-tech platform to create, consume, and rate courses; instructors
   can sell courses and track sales. Live: https://edu-glow.vercel.app/
-- QuikShare (Next.js, ShadCN, MongoDB, Redis): link & code sharing with Redis
+- ShareXYLab (Next.js, ShadCN, MongoDB, Redis): link & code sharing with Redis
   caching, API rate limiting, CI/CD via Cloud Build/Cloud Run.
-  Live: https://share.taskynow.in/
+  Live: https://share.xylab.in/
 - VaultX (React.js, Tailwind, Solana, Web3, BIP39): blockchain web wallet creating
   Solana/Ethereum wallets from a mnemonic. Live: https://vault-x-brown.vercel.app/
 - Quizify (React.js, Tailwind, Google Gemini API): dynamic quiz generator.
@@ -61,9 +60,8 @@ ACHIEVEMENTS:
 - 1850+ rating on LeetCode, 1470+ on Codeforces.
 - Solved 800+ DSA problems across platforms.
 - Ranked 249/30,708 (LeetCode Weekly 470) and 434/37,342 (Biweekly 178).
-- 1st place, Neuro Nest Hackathon (GL Bajaj).
 
-CERTIFICATIONS: Cybersecurity Skilling Program (IIT Kanpur); Neuro Nest Hackathon winner.
+CERTIFICATIONS: None as of now.
 `;
 
 const COMMANDS =

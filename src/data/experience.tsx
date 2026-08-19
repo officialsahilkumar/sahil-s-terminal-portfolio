@@ -10,26 +10,17 @@ export interface Experience {
 export const experience: Experience[] = [
   {
     id: 1,
-    title: "Associate Software Development Engineer",
-    company: "Juspay",
-    location: "Bengaluru",
-    date: "May 2025 - Present",
+    title: "Associate Software Engineer",
+    company: "Accenture",
+    location: "Kolkata",
+    date: "March 2024 - Present",
     bullets: [
-      "Architected & built Xyne Claw, a multi-tenant AI agent platform for Xyne Spaces, enabling async agent orchestration, scheduled workflows, and production agent execution integrated with chat & workspaces.",
-      "Built the execution runtime on the Pi coding-agent SDK with multi-LLM routing, sandboxed execution, subagents, & a secure MCP layer (credential vault + proxied tools) supporting 100+ MCP connectors.",
-      "Engineered an end-to-end attachment processing pipeline in Xyne Spaces, handling uploads, chunking, indexing in Vespa, and efficient retrieval at scale.",
-      "Developed a high-performance, virtualized multi-format document viewing system (10+ formats) with superior preview capabilities over Slack, improving content accessibility and overall user experience.",
-    ],
-  },
-  {
-    id: 2,
-    title: "SDE Intern",
-    company: "Bombay Shaving Company",
-    location: "Gurgaon",
-    date: "July 2024 - September 2024",
-    bullets: [
-      "Built an automated data pipeline to scrape, clean, and process customer review data at scale.",
-      "Developed a scalable system using the MERN stack, integrating BeautifulSoup for data extraction and the Gemini API for sentiment analysis, producing structured insights with exportable reports.",
+      "Developed a real-time wildlife monitoring platform for Utah DWR using React, TypeScript, Node.js, and Google Cloud Pub/Sub to track GPS-collared animals and analyze movement data.",
+      "Built interactive geospatial visualizations using Google Maps SDK, processing satellite-transmitted GPS coordinates to display animal movements with species-based filtering.",
+      "Implemented geofencing and species-specific boundary alerts to identify when tracked animals moved outside designated areas and highlight potential movement risks.",
+      "Processed large-scale wildlife datasets covering 11,798+ animals and 20+ years of data to support analysis of migration patterns, population trends, disease, mortality, and habitat connectivity.",
+      "Supported BMW Canada integrations using IBM IIB, troubleshooting transaction failures and implementing integration-flow changes.",
+      "Performed AWS server patching and vulnerability remediation, validating fixes through Wiz vulnerability scans.",
     ],
   },
 ];

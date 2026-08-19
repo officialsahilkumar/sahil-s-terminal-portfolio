@@ -58,7 +58,7 @@ export const projects: ProjectData = {
       liveLink: "https://edu-glow.vercel.app/",
     },
     {
-      title: "QuikShare",
+      title: "ShareXYLab",
       description:
         "Built a full-stack web app with Next.js, ShadCN, and MongoDB for seamless link and code sharing, with Redis caching to enhance performance. Implemented rate limiting on API routes to prevent abuse and ensure service reliability, and set up CI/CD pipelines with Cloud Build triggers for automated testing & deployment on Cloud Run.",
       achievements: [
@@ -67,7 +67,7 @@ export const projects: ProjectData = {
         "Set up CI/CD pipelines with Cloud Build triggers for automated testing & deployment on Cloud Run.",
       ],
       technologies: ["Next.js", "ShadCN", "MongoDB", "Redis", "CI/CD", "Cloud Run"],
-      liveLink: "https://share.taskynow.in/",
+      liveLink: "https://share.xylab.in/",
     },
   ],
   otherProjects: [
